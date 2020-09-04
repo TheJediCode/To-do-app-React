@@ -1,0 +1,75 @@
+@import url('http://fonts.googleapis.com/css?family=Cookie');
+
+* {
+    box-sizing: border-box;
+    cursor: url(./pencil.png) 1 30, auto;
+}
+
+body {
+    background-color: black;
+    background-image: url(./paper-small.png);
+    background-repeat: repeat-y;
+    font-family:'Cookie', Helvetica, sans-serif;
+    font-size: 2em;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+    /*cursor: url(./pencil.png), auto;*/
+}
+
+.title {
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.field {
+    border: transparent;
+    background-color: transparent;
+    width: 79%;
+    height: 50px;
+    /*cursor: url(./pencil.png), auto;*/
+}
+
+.field:hover {
+    border: 1px solid black;
+}
+
+#root {
+    /*position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    /*text-align: center;
+    align-items: center;*/
+    margin-top: 55px;
+    margin-left: 15px;
+    padding: 15px;
+    /*border: 1px solid darkcyan;*/
+    width: 26vw;
+    /*background-color: black;
+    color: white;*/
+}
+
+.button {
+    display: block;
+    margin: 10px;
+    border: transparent;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 25%;
+    font-family:'Cookie', Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.button:hover {
+    color: black;
+}
+
+.checkbox {
+    display: flex;
+    padding: 5px;
+    margin: 3px;
+    margin-bottom: 40px;
+}
