@@ -40,11 +40,11 @@ function App() {
 
   return (
     <>
-      <ToDoList items={items} toggleItem={toggleItem}/>
-      <input ref={itemNameRef} type="text" />
-      <button onClick={handleAddItem}>Add Item</button>
-      <button onClick={handleClearItems}>Remove Item</button>
-      <div>{items.filter(item => !item.complete).length} items remaining</div>
+      <ToDoList className="toDoItems" items={items} toggleItem={toggleItem}/>
+      <input className="field" ref={itemNameRef} type="text" />
+      <button className="button" onClick={handleAddItem}>Add Task</button>
+      <button className="button" onClick={handleClearItems}>Erase finished tasks</button>
+      <div className="output">{items.filter(item => !item.complete).length} items remaining</div>
     </>
   );
 }
