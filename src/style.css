@@ -12,7 +12,6 @@ body {
     font-family:'Cookie', Helvetica, sans-serif;
     font-size: 2em;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
-    /*cursor: url(./pencil.png), auto;*/
 }
 
 .title {
@@ -29,7 +28,6 @@ body {
     background-color: transparent;
     width: 79%;
     height: 50px;
-    /*cursor: url(./pencil.png), auto;*/
 }
 
 .field:hover {
@@ -37,19 +35,10 @@ body {
 }
 
 #root {
-    /*position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
-    /*text-align: center;
-    align-items: center;*/
     margin-top: 55px;
     margin-left: 15px;
     padding: 15px;
-    /*border: 1px solid darkcyan;*/
     width: 26vw;
-    /*background-color: black;
-    color: white;*/
 }
 
 .button {
